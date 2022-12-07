@@ -3,7 +3,7 @@ Type "help", "copyright", "credits" or "license()" for more information.
 def findAngle(hh, mm):
     # handle 24-hour notation
     hh = hh % 12
-
+#
     # find the position of the hour's hand
     h = (hh * 360) // 12 + (mm * 360) // (12 * 60)
 
